@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    outline: 1px, solid black;
+}
+
+.header {
+    display: flex;
+}
+
+
+
+.bottom-header {
+    display: flex;
+}
+
+
+
+
+.middle-container {
+    display: flex;
+}
+
+
+
+
+.quote-container {
+    display: flex;
+}
+
+
+
+
+.call-to-action-container {
+    display: flex;
+}
+
+
+
+
+.footer {
+    display: flex;
+}
