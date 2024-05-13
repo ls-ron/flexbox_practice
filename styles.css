@@ -4,6 +4,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    min-height: 100vh;
 }
 
 .header {
@@ -20,6 +21,10 @@ body {
 .right-header {
     display: flex;
     gap: 1rem;
+}
+
+.right-header a {
+    text-decoration: none;
     color: #E5E7EB;
 }
 
@@ -37,11 +42,27 @@ body {
 
 .container {
     max-width: 35vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
 }
 
-.container p {
+.text-top {
+    font-size:xx-large;
+    font-weight: 600;
+}
+
+.text-middle {
     font-size: small;
     color: #E5E7EB;
+}
+
+.button-bottom button {
+    color: #F9FAF8;
+    border: 0.1rem solid #3882F6;
+    border-radius: 0.5rem;
+    background-color: #3882F6;
+    padding: 0.5rem 1rem;
 }
 
 .img-right {
@@ -86,18 +107,65 @@ body {
 }
 
 .quote-container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    flex-direction: column;
     display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    background-color: #E5E7EB;
 }
 
+.quote {
+    font-style: italic;
+}
 
-
+.author {
+    width: 27rem;
+    text-align: right;
+    font-weight:600;
+}
 
 .call-to-action-container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.meta-blue-container {
+    background-color: #3882F6;
+    padding: 0.7rem 3rem;
+    display: flex;
+    gap: 5rem; 
+    align-items: center; 
+    border: 1rem solid #3882F6;
+    border-radius: 0.5rem;
+}
 
+.text-container {
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
 
+.text-1 {
+    font-weight: 600;
+}
+
+.text-2 {
+    font-size: small;
+}
+
+.cta-button button {
+    border: 0.1rem solid #E5E7EB;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.5rem;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
 
 .footer {
     display: flex;
